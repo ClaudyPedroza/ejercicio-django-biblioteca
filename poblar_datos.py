@@ -1,4 +1,4 @@
-from .models import Autor,Libro,Resena
+from core.models import Autor,Libro,Resena
 
 # Crear autores
 autor1 = Autor.objects.create(nombre="Gabriel Garcia Marquez", nacionalidad="Colombiano")
